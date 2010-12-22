@@ -1,0 +1,75 @@
+.bong-dialog-mask{
+	position: fixed;
+	z-index: 9999;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: url("/bong/sys/rc/img/icons/transbg.png") repeat;
+	display:block;
+}
+.bong-dialog-container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.bong-dialog-wrapper{
+	border: 10px solid #858585;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin: auto;
+	position: ralative;
+	background-color: #ffffff;
+}
+.bong-dialog-title{
+	height: 20px;
+	text-align: left;
+	background-color: #6D84B4;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: "lucida grande", "tahoma", "verdana", "arial", sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #3B5998;
+}
+.bong-dialog-body{
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	padding: 5px;
+	font-size: 11px;
+	text-align: left;
+}
+.bong-dialog-button-area{
+	margin-top: 20px;
+	height: 30px;
+	background: #F2F2F2;
+	width: 100%;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	text-align: right;
+	padding-top: 5px;
+}
+.bong-dialog-btn{
+	min-width: 70px;
+	background: #EEE url("/bong/sys/rc/img/icons/bar.png") 0px 0px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 1px 0px 2px;
+	white-space: nowrap;
+	display: inline-block;
+	border: 1px solid #999;;
+	color: #333;
+	height: 25px;
+	cursor: pointer;
+}
+.bong-dialog-btn-default{
+	background-color: #5B74A8;
+	background-position: 0px -48px;
+	border-color: #29447E #29447E #1A356E;
+	color: #ffffff;
+}
+.bong-dialog-body input{
+	border: 1px solid #96A6C5;
+}
